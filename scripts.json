@@ -1,0 +1,14 @@
+{
+   "$schema": "https://deno.land/x/denon@2.5.0/schema.json",
+   "scripts": {
+      "start": {
+         "cmd": "deno run server.tsx",
+         "desc": "run my server.tsx file",
+         "start": "denon run server.tsx",
+         "allow": ["env", "net"],
+         "env": {
+            "PORT": "9000"
+         }
+      }
+   }
+}
